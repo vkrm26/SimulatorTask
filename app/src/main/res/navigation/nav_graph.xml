@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/search_fragment">
+
+
+    <fragment
+        android:id="@+id/search_fragment"
+        android:name="in.vikram.simulationtask.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+
+        <action
+            android:id="@+id/action_search_fragment_to_full_photo_fragment"
+            app:destination="@id/full_photo_fragment" />
+        <action
+            android:id="@+id/action_search_fragment_to_fav_photo_fragment"
+            app:destination="@id/fav_photo_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/full_photo_fragment"
+        android:name="in.vikram.simulationtask.search.FullPhotoFragment"
+        tools:layout="@layout/fragment_full_photo" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fav_photo_fragment"
+        android:name="in.vikram.simulationtask.search.FavPhotosFragment"
+        android:label="Favourite Photos"
+        tools:layout="@layout/fragment_fav_photos" >
+
+        <action
+            android:id="@+id/action_fav_photo_fragment_to_full_photo_fragment"
+            app:destination="@id/full_photo_fragment" />
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="android:bottomRightRadius">12dp</item>
+        <item name="android:bottomLeftRadius">12dp</item>
+    </style>
+
+
+    <style name="EmptyResults">
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:drawableTop">@drawable/sad</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+</resources>

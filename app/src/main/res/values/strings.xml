@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimulationTask</string>
+    <string name="search_nature_landscape_etc">search nature, landscape etc.</string>
+    <string name="image_url">https://farm%1$d.staticflickr.com/%2$s/%3$s_%4$s_m.jpg</string>
+    <string name="error">Please try again!!</string>
+    <string name="no_results">No results</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
